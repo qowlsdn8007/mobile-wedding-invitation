@@ -10,6 +10,13 @@ import image09 from '@/assets/images/09.jpg'
 import image10 from '@/assets/images/10.jpg'
 import image11 from '@/assets/images/11.jpg'
 import image12 from '@/assets/images/12.jpg'
+import image13 from '@/assets/images/13.jpg'
+import image14 from '@/assets/images/14.jpg'
+import image15 from '@/assets/images/15.jpg'
+import image16 from '@/assets/images/16.jpg'
+import image17 from '@/assets/images/17.jpg'
+import image18 from '@/assets/images/18.jpg'
+
 
 const images = [   /* 이미지 경로를 리스트로 저장 */
   {
@@ -72,6 +79,36 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
   },{
     alt: 'image12',
     source: image12,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image13',
+    source: image13,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image14',
+    source: image14,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image15',
+    source: image15,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image16',
+    source: image16,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image17',
+    source: image17,
+    width: 640,
+    height: 960
+  },{
+    alt: 'image18',
+    source: image18,
     width: 640,
     height: 960
   }

@@ -1,33 +1,33 @@
 {
   "greeting": {
-    "title": "장세모 \uD83D\uDC8D 황네모\n결혼합니다!",
+    "title": "배진우 \uD83D\uDC8D 김현정\n결혼합니다!",
     "message": "저희 결혼합니다.\n\n서로에게 알맞은 온도로 따뜻하던 우리.\n부부로서 첫걸음을 내딛는 그 설렘의 순간에\n소중한 분들을 초대합니다.",
     "host": {
       "groom": {
-        "name": "세모",
+        "name": "진우",
         "relation": "아들",
         "parents": [
           {
             "relation": "아버지",
-            "name": "장아빠"
+            "name": "배현수"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "김귀숙"
           }
         ]
       },
       "bride": {
-        "name": "네모",
+        "name": "현정",
         "relation": "딸",
         "parents": [
           {
             "relation": "아버지",
-            "name": "황아빠"
+            "name": "김환균"
           },
           {
             "relation": "어머니",
-            "name": "이엄마"
+            "name": "이순길"
           }
         ]
       }
@@ -39,21 +39,21 @@
       "host": "신랑측",
       "accountInfo": [
         {
-          "name": "장세모",
+          "name": "배진우",
           "relation": "신랑",
-          "bank": "카카오뱅크",
-          "account": "1234-56-789012",
+          "bank": "신한은행",
+          "account": "110-398-675928",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
         {
-          "name": "장아빠",
+          "name": "배현수",
           "relation": "아버지",
           "bank": "농협",
           "account": "123-45-678901"
         },
         {
-          "name": "이엄마",
+          "name": "김귀숙",
           "relation": "어머니",
           "bank": "농협",
           "account": "123-45-678901"
@@ -64,7 +64,7 @@
       "host": "신부측",
       "accountInfo": [
         {
-          "name": "황네모",
+          "name": "김현정",
           "relation": "신부",
           "bank": "토스뱅크",
           "account": "1234-5678-9012",
@@ -72,13 +72,13 @@
           "tossAccount": ""
         },
         {
-          "name": "황아빠",
+          "name": "김환균",
           "relation": "아버지",
           "bank": "농협",
           "account": "123-45-678901"
         },
         {
-          "name": "이엄마",
+          "name": "이순길",
           "relation": "어머니",
           "bank": "농협",
           "account": "123-45-678901"
@@ -87,7 +87,7 @@
     }
   ],
   "mapInfo": {
-    "address1": "아펠가모 공덕 라로브홀",
+    "address1": "흑석동 성당",
     "address2": "서울 마포구 마포대로 92\n효성해링턴스퀘어 B동 7층\n02-2197-0230",
     "naverMap": "https://naver.me/IM4RDses",
     "kakaoMap": "https://kko.kakao.com/otznTfkVWV",
