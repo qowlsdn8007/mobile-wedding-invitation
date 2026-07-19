@@ -32,7 +32,7 @@
         ]
       }
     },
-    "eventDetail": "2024년 2월 17일 (토) 14:00\n아펠가모 공덕 라로브홀"
+    "eventDetail": "2026년 12월 19일 (토) 11:00\n흑석동성당 카나의 혼인성당"
   },
   "hostInfo": [
     {
@@ -88,20 +88,20 @@
   ],
   "mapInfo": {
     "address1": "흑석동 성당",
-    "address2": "서울 마포구 마포대로 92\n효성해링턴스퀘어 B동 7층\n02-2197-0230",
-    "naverMap": "https://naver.me/IM4RDses",
-    "kakaoMap": "https://kko.kakao.com/otznTfkVWV",
-    "lat": 37.54222,
-    "lon": 126.952708
+    "address2": "서울 동작구 흑석로13길 3 흑석동천주교회\n카나의 혼인성당\n02-816-2961",
+    "naverMap": "https://naver.me/5r98J2ff",
+    "kakaoMap": "https://kko.to/YiFcSH_JrP",
+    "lat": 37.50871,
+    "lon": 126.960462
   },
   "locationInfo": [
     {
       "title": "\uD83D\uDCCD 지하철",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 5·6호선 공덕역 7번 출구 (도보 2분)\n\uD83D\uDC49\uD83C\uDFFB 경의·중앙선, 공항철도 공덕역 10번 출구 (도보 30초)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 9호선 흑석역 4번 출구 (도보 6분)"
     },
     {
       "title": "\uD83D\uDCCD 주차안내",
-      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 3-5층 2시간 무료주차\n(안내데스크에서 주차권 수령)"
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 건물 내 지하 1-2층 무료주차"
     }
   ],
   "emojis": [
