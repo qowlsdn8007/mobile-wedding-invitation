@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 
 .env
+
+# 고화질 원본 사진 백업 (배포 제외)
+originals/

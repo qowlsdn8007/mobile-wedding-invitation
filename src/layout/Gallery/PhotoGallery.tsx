@@ -10,8 +10,17 @@ const PhotoGallery = () => {
     height: '150px',
   };
 
+  // 저화질 이미지 확대 시 깨져 보이므로 라이트박스 확대(핀치/더블탭/줌 버튼) 차단
+  const galleryOptions = {
+    zoom: false,
+    initialZoomLevel: 'fit',
+    secondaryZoomLevel: 'fit',
+    maxZoomLevel: 1,
+    doubleTapAction: false,
+  } as const;
+
   return (
-    <Gallery>
+    <Gallery options={galleryOptions}>
       <div
         style={{
           display: 'grid',
