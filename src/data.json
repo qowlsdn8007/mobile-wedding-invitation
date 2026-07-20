@@ -41,7 +41,7 @@
         {
           "name": "배진우",
           "relation": "신랑",
-          "bank": "신한은행",
+          "bank": "신한",
           "account": "110-398-675928",
           "kakaopayAccount": "",
           "tossAccount": ""
@@ -50,7 +50,7 @@
           "name": "배현수",
           "relation": "아버지",
           "bank": "전북은행",
-          "account": "123-45-678901"
+          "account": "522-21-0067102"
         },
         {
           "name": "김귀숙",
@@ -66,22 +66,22 @@
         {
           "name": "김현정",
           "relation": "신부",
-          "bank": "토스뱅크",
-          "account": "1234-5678-9012",
+          "bank": "농협",
+          "account": "302-0830-4221-81",
           "kakaopayAccount": "",
           "tossAccount": ""
         },
         {
           "name": "김환균",
           "relation": "아버지",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "기업",
+          "account": "015-030641-03-013"
         },
         {
           "name": "이순길",
           "relation": "어머니",
-          "bank": "농협",
-          "account": "123-45-678901"
+          "bank": "신한",
+          "account": "380-12-140743"
         }
       ]
     }
