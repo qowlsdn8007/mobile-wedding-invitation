@@ -1,4 +1,5 @@
 import { Gallery, Item } from 'react-photoswipe-gallery';
+import type PhotoSwipe from 'photoswipe';
 import 'photoswipe/style.css';
 import images from '@/layout/Gallery/Images.ts';
 
@@ -15,12 +16,21 @@ const PhotoGallery = () => {
     zoom: false,
     initialZoomLevel: 'fit',
     secondaryZoomLevel: 'fit',
-    maxZoomLevel: 1,
+    maxZoomLevel: 'fit',
     doubleTapAction: false,
   } as const;
 
+  // 핀치(2-finger) 시 pointerMove 를 취소해 라이트박스 확대 완전 차단
+  const disablePinchZoom = (pswp: PhotoSwipe) => {
+    pswp.on('pointerMove', (e) => {
+      if (pswp.gestures.isMultitouch) {
+        e.preventDefault();
+      }
+    });
+  };
+
   return (
-    <Gallery options={galleryOptions}>
+    <Gallery options={galleryOptions} onBeforeOpen={disablePinchZoom}>
       <div
         style={{
           display: 'grid',
