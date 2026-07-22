@@ -16,7 +16,6 @@ import image15 from '@/assets/images/15.jpg'
 import image16 from '@/assets/images/16.jpg'
 import image17 from '@/assets/images/17.jpg'
 import image18 from '@/assets/images/18.jpg'
-import image19 from '@/assets/images/19.jpg'
 
 
 const images = [   /* 이미지 경로를 리스트로 저장 */
@@ -110,11 +109,6 @@ const images = [   /* 이미지 경로를 리스트로 저장 */
   },{
     alt: 'image18',
     source: image18,
-    width: 640,
-    height: 960
-  },{
-    alt: 'image19',
-    source: image19,
     width: 640,
     height: 960
   }
