@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import data from 'data.json';
 import Address from './Address.tsx';
+import BusInfo from './BusInfo.tsx';
 import MapButtons from './MapButtons.tsx';
 import { Caption, PointTitle } from '@/components/Text.tsx';
 import KakaoMap from './KakaoMap.tsx';
@@ -14,6 +15,7 @@ const Location = () => {
       <KakaoMap />
       <MapButtons />
       <Address />
+      <BusInfo />
     </LocationWrapper>
   );
 };
