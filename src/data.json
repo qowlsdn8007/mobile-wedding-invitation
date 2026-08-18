@@ -5,7 +5,7 @@
     "host": {
       "groom": {
         "name": "진우",
-        "relation": "아들",
+        "relation": "차남",
         "parents": [
           {
             "relation": "아버지",
@@ -19,7 +19,7 @@
       },
       "bride": {
         "name": "현정",
-        "relation": "딸",
+        "relation": "장녀",
         "parents": [
           {
             "relation": "아버지",
