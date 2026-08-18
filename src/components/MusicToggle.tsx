@@ -64,8 +64,8 @@ const spin = keyframes`
 
 const ToggleButton = styled.button`
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 40px;
+  right: 40px;
   z-index: 100;
   width: 40px;
   height: 40px;
