@@ -4,17 +4,30 @@ import Host from '../Contact/Host.tsx';
 import RoundButton from '@/components/RoundButton.tsx';
 import { Caption, Paragraph } from '@/components/Text.tsx';
 
+const toGCalDate = (iso: string) => iso.replace(/[-:]/g, '');
+
+const buildGoogleCalendarUrl = (event: typeof data.event) => {
+  const params = new URLSearchParams({
+    action: 'TEMPLATE',
+    text: event.title,
+    dates: `${toGCalDate(event.start)}/${toGCalDate(event.end)}`,
+    ctz: 'Asia/Seoul',
+    details: event.details,
+    location: event.location,
+  });
+  return `https://calendar.google.com/calendar/render?${params.toString()}`;
+};
+
 const Invitation = () => {
-  const { greeting } = data;
+  const { greeting, event } = data;
   return (
     <InvitationWrapper>
       <Paragraph>{greeting.message}</Paragraph>
       <Host />
       <Caption textAlign={'center'}>{greeting.eventDetail}</Caption>
-      {/* TODO: 구글캘린더 추가하기 기능을 넣는다면 링크 수정 */}
       <RoundButton
         target="_blank"
-        href=""
+        href={buildGoogleCalendarUrl(event)}
         rel="noreferrer">
         구글 캘린더 추가하기
       </RoundButton>
