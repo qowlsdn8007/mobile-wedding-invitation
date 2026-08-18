@@ -11,8 +11,8 @@
     "guestbook": {
       ".read": true,
       "$entry": {
-        ".write": "!data.exists() && newData.exists()",
-        ".validate": "newData.hasChildren(['sender', 'message', 'createdAt', 'date'])",
+        ".write": "(!data.exists() && newData.exists()) || (data.exists() && !newData.exists())",
+        ".validate": "newData.hasChildren(['sender', 'message', 'createdAt', 'date', 'password'])",
         "sender": {
           ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 20"
         },
@@ -24,6 +24,9 @@
         },
         "date": {
           ".validate": "newData.isString() && newData.val().length <= 40"
+        },
+        "password": {
+          ".validate": "newData.isString() && newData.val().length === 64"
         },
         "$other": {
           ".validate": false
