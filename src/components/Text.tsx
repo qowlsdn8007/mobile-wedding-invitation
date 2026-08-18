@@ -3,8 +3,9 @@ import styled from '@emotion/styled';
 export const Heading1 = styled.p`
   font-family: 'FlowerScent', cursive;
   font-size: 1.5rem;
-  margin: 10px;
+  margin: 10px 10px 24px;
   color: #e88ca6;
+  letter-spacing: 0.04em;
   white-space: pre-line;
 `;
 
@@ -24,6 +25,7 @@ export const PointTitle = styled.p`
 
 export const Paragraph = styled.p`
   line-height: 2.2rem;
+  letter-spacing: 0.01em;
   white-space: pre-line;
 `;
 
