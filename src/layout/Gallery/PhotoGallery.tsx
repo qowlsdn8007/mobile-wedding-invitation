@@ -7,8 +7,10 @@ const PhotoGallery = () => {
   const smallItemStyles: React.CSSProperties = {
     cursor: 'pointer',
     objectFit: 'cover', // 전체 이미지가 보이도록 맞추고 싶을 때는 contain / 비율 유지하고 싶을 때는 cover
-    width: '100px',
-    height: '150px',
+    width: '100%',
+    aspectRatio: '2 / 3', // 기존 100:150 비율 유지하며 셀 너비에 맞춤
+    height: 'auto',
+    display: 'block',
   };
 
   // 저화질 이미지 확대 시 깨져 보이므로 라이트박스 확대(핀치/더블탭/줌 버튼) 차단
@@ -34,8 +36,9 @@ const PhotoGallery = () => {
       <div
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(3, 0fr)',
+          gridTemplateColumns: 'repeat(3, 1fr)',
           gridGap: 2,
+          width: '100%',
         }}>
         {images.map((image, index) => {
           return (

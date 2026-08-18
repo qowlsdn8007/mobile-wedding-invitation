@@ -26,6 +26,7 @@ export default GalleryWrap;
 
 const ContentsWrap = styled.div`
   margin: 30px 0;
+  width: 100%;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
@@ -35,6 +36,7 @@ const ContentsWrap = styled.div`
 
 const ImageMoreWrap = styled.div<{ isMoreView: boolean }>`
   position: relative;
+  width: 100%;
   max-height: ${(props) =>
     props.isMoreView
       ? ''
