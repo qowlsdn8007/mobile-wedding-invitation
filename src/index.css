@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  overscroll-behavior: none; /* 스크롤 끝 바운스로 배경 노출/이동 방지 */
+}
+
 body {
   font-family: SUITE-Regular, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
