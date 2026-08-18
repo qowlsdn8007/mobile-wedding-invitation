@@ -4,9 +4,19 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+html {
   overscroll-behavior: none; /* 스크롤 끝 바운스로 배경 노출/이동 방지 */
+  overflow-x: hidden; /* 가로 스크롤 제거 (html은 flex 아니라 세로 스크롤 유지) */
+  scrollbar-width: none; /* Firefox: 스크롤바 숨김 */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* Chrome/Safari: 스크롤바 숨김 */
+}
+
+body {
+  overscroll-behavior: none;
 }
 
 body {
