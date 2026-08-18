@@ -1,4 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
+import MusicToggle from '@/components/MusicToggle.tsx';
+import Reveal from '@/components/Reveal.tsx';
 import { Heading1 } from '@/components/Text.tsx';
 import Wrapper from '@/components/Wrapper.tsx';
 import Account from '@/layout/Account/Account.tsx';
@@ -36,28 +38,41 @@ function App() {
 
   return (
     <Container>
+      <MusicToggle />
       <Wrapper>
-        <Main />
+        <Reveal>
+          <Main />
+        </Reveal>
       </Wrapper>
       <Wrapper>
-        <Heading1>모시는 글</Heading1>
-        <Invitation />
+        <Reveal>
+          <Heading1>모시는 글</Heading1>
+          <Invitation />
+        </Reveal>
       </Wrapper>
       <Wrapper ref={galleryRef}>
-        <Heading1>Gallery</Heading1>
-        <GalleryWrap />
+        <Reveal>
+          <Heading1>Gallery</Heading1>
+          <GalleryWrap />
+        </Reveal>
       </Wrapper>
       <Wrapper>
-        <Heading1>마음 전하실 곳</Heading1>
-        <Account />
+        <Reveal>
+          <Heading1>마음 전하실 곳</Heading1>
+          <Account />
+        </Reveal>
       </Wrapper>
       <Wrapper>
-        <Heading1>오시는 길</Heading1>
-        <Location />
+        <Reveal>
+          <Heading1>오시는 길</Heading1>
+          <Location />
+        </Reveal>
       </Wrapper>
       <Wrapper>
-        <Heading1>신랑 신부에게</Heading1>
-        <Guestbook />
+        <Reveal>
+          <Heading1>신랑 신부에게</Heading1>
+          <Guestbook />
+        </Reveal>
       </Wrapper>
       <FloatingBar isVisible={isVisible} />
     </Container>
