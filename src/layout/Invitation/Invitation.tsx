@@ -18,6 +18,7 @@ const Invitation = () => {
         rel="noreferrer">
         구글 캘린더 추가하기
       </RoundButton>
+      <Notice>{greeting.notice}</Notice>
     </InvitationWrapper>
   );
 };
@@ -29,4 +30,18 @@ const InvitationWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 20px;
+`;
+
+const Notice = styled.p`
+  margin: 4px 0 0;
+  padding: 14px 18px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f4f7f0;
+  border-radius: 12px;
+  color: #6b6f68;
+  font-size: 0.85rem;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  white-space: pre-line;
 `;
